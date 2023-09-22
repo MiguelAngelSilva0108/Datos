@@ -1,0 +1,69 @@
+/* styles.css */
+.container.text-center {
+    max-width: 550px; 
+  }
+  
+  .border.p-4 {
+    padding: 20px; 
+    border-radius: 2%;
+  }
+  
+  .form-floating {
+    margin-bottom: 20px; 
+  }
+  
+  /* Estilos para centrar el formulario en la página */
+  .container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  h2 {
+    margin-top: -80px;
+    margin-bottom: -10px;
+  }
+
+  /* Estilos adicionales para el formulario */
+  form {
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+  }
+
+
+/* Estilos personalizados para el botón "Enviar" */
+.btn-custom {
+    margin-top: 15px; 
+    background-color: #28a745 !important; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    border-radius: 10px; 
+    color: white; 
+    font-size: 1.5rem; 
+  }
+  
+ 
+  .btn-custom:hover {
+    background-color: #218838 !important; 
+    transform: scale(1.1) translateY(-3px); 
+  }
+
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #0B5ED7;
+    color: white;
+}
+
+
+.custom-file-control {
+    background-color: white;
+}
+
+
+.custom-file-control::after {
+    color: black;
+}
+
+  
